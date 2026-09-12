@@ -1,115 +1,135 @@
 🛒 CymbalMart AI Shopping Planner
 
-An AI-powered shopping planning agent that helps users create personalized shopping plans based on event type, guest count, preferences, and budget.
-
-Built with Google AI Studio and Gemini, the project combines conversational AI, intelligent recommendations, budget tracking, and hands-free voice interaction into a single shopping-planning experience.
+An AI-powered shopping planner agent built with Google AI Studio and Gemini, designed to generate personalized shopping plans based on event requirements, guest count, preferences, and budget.
 
 🚀 Overview
 
-Planning purchases for events can be time-consuming, especially when balancing the number of guests, preferences, and a fixed budget.
+CymbalMart AI Shopping Planner helps users plan event-based shopping through natural-language interaction.
 
-CymbalMart AI Shopping Planner addresses this by allowing users to describe their event requirements naturally. The AI agent interprets the requirements and generates a tailored shopping plan while helping users stay within their budget.
+Users can provide details such as:
+
+- 🎉 Event type
+- 👥 Number of guests
+- 💰 Budget
+- 🎯 Theme or preferences
+- 🛍️ Shopping requirements
+
+The AI agent processes these requirements and generates a context-aware shopping plan.
 
 ✨ Key Features
 
-- 🤖 AI Shopping Planner — Generates personalized shopping plans using Gemini.
-- 💬 Natural-Language Interaction — Understands event requirements expressed conversationally.
-- 🎯 Context-Aware Recommendations — Considers event type, guest count, preferences, and budget.
-- 💰 Real-Time Budget Tracking — Helps users monitor planned spending.
-- 🎙️ Hands-Free Voice Interaction — Enables voice-based interaction with the shopping assistant.
-- 📋 Dynamic Shopping List — Organizes recommended items into a practical shopping plan.
-- 🧪 Multi-Scenario Testing — Tested across 30+ scenarios involving different events, group sizes, preferences, and budgets.
+🤖 AI Shopping Planner
 
-🧠 How It Works
+Generates personalized shopping recommendations based on user requirements.
+
+💬 Natural-Language Interaction
+
+Users can describe their requirements conversationally instead of filling complex forms.
+
+🧠 Context-Aware Recommendations
+
+Uses Gemini to understand event context, guest count, preferences, and budget constraints.
+
+💰 Real-Time Budget Tracking
+
+Helps users monitor estimated spending while building their shopping plan.
+
+🎙️ Hands-Free Voice Interaction
+
+Supports voice-based interaction for a more natural shopping-planning experience.
+
+🛍️ Dynamic Shopping List
+
+Creates an organized shopping list based on the generated plan.
+
+🧪 Multi-Scenario Testing
+
+Tested across 30+ scenarios involving different events, group sizes, preferences, and budgets.
+
+🏗️ How It Works
 
 User Requirements
        ↓
-Natural-Language Understanding
+Natural-Language / Voice Input
        ↓
-Gemini-Powered Reasoning
+Gemini AI Processing
+       ↓
+Context & Budget Analysis
        ↓
 Personalized Shopping Plan
        ↓
-Budget Validation & Tracking
+Dynamic Shopping List
        ↓
-Interactive Shopping Assistant
+Budget Tracking
 
-Example Input
+🧰 Technology Stack
 
-«"I am planning a birthday party for 15 people with a superhero theme and a limited budget."»
-
-Agent Output
-
-The agent processes the requirements and generates a customized shopping plan based on:
-
-- Event type
-- Number of guests
-- Theme/preferences
-- Required items
-- Budget constraints
-
-🛠️ Technology Stack
-
-Technology| Purpose
-Google AI Studio| AI application development
-Google Gemini| Natural-language understanding and AI recommendations
-Streamlit| Interactive application interface
-Python| Application logic and integration
+- Google AI Studio
+- Google Gemini
+- TypeScript
+- Vite
+- Web-based AI application
 
 🧪 Testing & Validation
 
-The application was developed and iteratively tested within 1 week.
+The application was developed and iteratively tested over one week.
 
-More than 30 test scenarios were conducted using different combinations of:
+Testing included 30+ scenarios covering:
 
-- Event types
-- Guest counts
-- User preferences
+- Different event types
+- Different guest counts
+- Different budgets
+- Different themes and preferences
+- Shopping-plan generation
 - Budget constraints
-- Shopping requirements
+- Natural-language interactions
 
-The testing process was used to evaluate the consistency and quality of the generated shopping plans and the functionality of the application.
+The testing process was used to identify inconsistent responses and improve the overall planning workflow.
+
+💡 Example Use Cases
+
+🎂 Birthday Party
+
+Plan shopping requirements based on guest count, theme, and budget.
+
+🏢 Corporate Event
+
+Generate professional event-shopping recommendations while considering the available budget.
+
+💍 Wedding Reception
+
+Create a large-scale shopping plan based on guest count, event style, and requirements.
 
 📸 Screenshots
 
-Add screenshots of the following:
+Add screenshots of the application here.
+
+Recommended screenshots:
 
 1. Main application interface
-2. Shopping planner interaction
-3. Generated shopping plan
-4. Budget tracking
-5. Voice interaction
-6. AI assistant response
-
-🎯 Use Cases
-
-CymbalMart can assist with shopping planning for:
-
-- 🎂 Birthday parties
-- 🏢 Corporate events
-- 💍 Wedding receptions
-- 🎉 Social gatherings
-- 👨‍👩‍👧‍👦 Family events
-- 🛍️ Personalized shopping
+2. Generated shopping plan
+3. Budget tracking
+4. Voice interaction
 
 🔮 Future Improvements
 
 - Real-time product and price integration
-- Store and product availability
+- Store and location-based recommendations
 - User preference memory
-- Personalized recommendations based on previous plans
-- Multi-store shopping optimization
-- Improved evaluation and automated testing
-- Deployment as a scalable web application
+- Improved budget optimization
+- Multi-agent shopping workflows
+- Product comparison
+- Cloud deployment and scalable backend services
 
-📊 Project Highlights
+🎯 Project Highlights
 
-- Development Time: 1 week
-- Testing: 30+ scenarios
-- AI Model: Google Gemini
-- Development Platform: Google AI Studio
-- Interface: Streamlit
-- Domain: Generative AI / AI Agents / Intelligent Shopping
+- Built an end-to-end AI shopping-planning application
+- Integrated Gemini for natural-language reasoning and recommendations
+- Designed an interactive AI-agent workflow
+- Implemented budget-aware planning
+- Added voice-based interaction
+- Tested with 30+ scenarios
+- Developed using Google AI Studio
 
 👩‍💻 Author
 
